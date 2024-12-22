@@ -1,0 +1,273 @@
+body{
+	font-family: Century Gothic;
+	font-size: 15px;
+}
+
+
+.edit-img{
+	width: 22px;
+	height: 22px;
+	background-image: url(../img/edit.png);
+	background-size: 22px;
+	background-repeat: no-repeat;
+	background-color: rgba(0,0,0,.0);
+	border: none;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+
+}
+.delete-img{
+	width: 22px;
+	height: 22px;
+	background-image: url(../img/delete.png);
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-color: rgba(0,0,0,.0);
+	border: none;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+
+}
+.edit-img:hover,.delete-img:hover{
+	-webkit-transform: scale(1.2);
+	-webkit-transform-style: preserve-3d;
+	transform:scale(1.2);
+	transform-style: preserve-3d;
+	cursor: pointer; 
+}
+.right{
+	float: right;
+}
+.right-loged{
+	float: right;
+	margin-top: -27px;
+	padding-right: 20px;
+}
+
+.btn{
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+.flare-bg{
+	background-image: url(../img/flare-bg.jpg);
+	background-size: 105%;
+	background-attachment: fixed;
+	background-position: center;
+}
+.flare-bg-login{
+	background-image: url(../img/flare-bg-login.jpg);
+	background-size: 105%;
+	background-attachment: fixed;
+	background-position: center;
+}
+.judge-contestant{
+	background-color: #fff; 
+	border-radius: 8px;
+	margin-top: 30px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.3),0 6px 20px 0 rgba(0,0,0,0.3);
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.judge-contestant-login{
+	background-color: #fff; 
+	border-radius: 8px;
+	margin-top: 30px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	box-shadow:0 8px 16px 0 rgba(0,0,0,0.3),0 6px 20px 0 rgba(0,0,0,0.3);
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.login-form{
+	margin-top: 100px;
+}
+.reg-form{
+	margin-top: 70px;
+}
+.dost-logo{
+	width: 90px;
+}
+.searchfor{
+	width: 450px;
+	z-index: 500;
+}
+
+.Admin{
+	width: 35px;
+	height: 35px;
+	margin-left: 7px;
+	border-radius: 50%;
+	background-color: #c3c3c3;
+	border: none;
+	background-image: url(../img/admin.png);
+	background-size: 25px;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.logout{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: #c3c3c3;
+	border: none;
+	background-image: url(../img/power.png);
+	background-size: 25px;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.report{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: #c3c3c3;
+	border: none;
+	background-image: url(../img/report.png);
+	background-size: 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.editrecord{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: #c3c3c3;
+	border: none;
+	background-image: url(../img/editrecord.png);
+	background-size: 25px;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+.backtohome{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: #c3c3c3;
+	border: none;
+	background-image: url(../img/home.png);
+	background-size: 25px;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.Admin:hover, .logout:hover, .editrecord:hover, .backtohome:hover, .report:hover{
+	-webkit-transform: scale(1.1);
+	-webkit-transform-style: preserve-3d;
+	transform:scale(1.1);
+	transform-style: preserve-3d;
+	background-color: #b1b1b1;
+	cursor: pointer; 
+}
+.score{
+	width: 130px;
+}
+
+/*Media Query*/
+@media (max-width: 1198px) {
+	.flare-bg{
+		background-color: #000;
+		background-image: none;
+	}
+	.flare-bg-login{
+		background-color: #000;
+		background-image: none;
+	}
+	.dost-logo{
+		width: 90px;
+	}
+	.searchfor{
+		width: 450px;
+	}
+	.judge-contestant{
+		padding-top: 10px;
+		margin-bottom: 0px;
+		border-radius: 0px;
+		margin-top: 0px;
+		padding-bottom: 50px;
+		box-shadow:0 0 56px 10px rgba(0,0,0,0.9);
+	}
+	.judge-contestant-login{
+		padding-top: 10px;
+		margin-bottom: 0px;
+		border-radius: 0px;
+		margin-top: 0px;
+		box-shadow:0 0 56px 10px rgba(0,0,0,0.9);
+	}
+	.header{
+		background-image: url(../img/flare-center.jpg);
+		background-size: 120%;
+		background-position: top;
+		padding-bottom: 20px;
+	}
+	.login-form{
+		margin-top: 0px;
+		padding-bottom: 50px;
+	}
+}
+@media (max-width: 768px) {
+	.dost-logo{
+		width: 130px;
+	}
+	.searchfor{
+		width: 370px;
+	}
+}
+@media (max-width: 500px) {
+	.dost-logo{
+		width: 110px;
+	}
+	.searchfor{
+		width: 320px;
+	}
+	.header{
+		background-size: 130%;
+	}	
+}
+@media (max-width: 370px) {
+	.dost-logo{
+		width: 80px;
+	}
+	.searchfor{
+		width: 270px;
+	}	
+	.header{
+		background-size: 130%;
+	}
+	.judge-contestant{
+		padding-top: 30px;
+	}
+	.right-loged{
+		margin-top: -50px;
+	}
+	.judge-contestant{
+		box-shadow:0 0 10px 4px rgba(0,0,0,0.9);
+	}
+}	
+@media (max-width: 350px) {
+	.dost-logo{
+		width: 80px;
+	}
+	.searchfor{
+		width: 230px;
+	}	
+	.right-loged{
+		margin-top: -70px;
+	}
+	.judge-contestant{
+		padding-top: 20px;
+	}
+}
